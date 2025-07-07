@@ -149,3 +149,34 @@ Extracts and counts occurrences of each command.
 sort -nr → Sorts the commands by frequency in descending order.
 head -1 → Displays the most frequently used command.
 >>>>>>> 7e05941 (Initial commit with challenge solutions)
+=======
+# 💻 DevOps Bash Script Challenges
+
+This repository contains 10 beginner-friendly **DevOps Bash scripting challenges**, each designed to build fundamental Linux scripting and automation skills. Every script is simple, self-contained, and executable on a typical Linux environment.
+
+---
+
+## 📁 Challenge List
+
+| #  | Script Filename             | Description |
+|----|-----------------------------|-------------|
+| 1  | `01_hello_devops.sh`        | Prints "Hello DevOps" with the current date and time |
+| 2  | `02_check_website.sh`       | Checks if a given website is reachable using `curl` |
+| 3  | `03_check_file.sh`          | Checks if a filename exists and displays its contents |
+| 4  | `04_list_processes.sh`      | Lists all running processes and saves to `process_list.txt` |
+| 5  | `05_install_packages.sh`    | Installs `git`, `vim`, `curl` only if not already installed |
+| 6  | `06_monitor_system.sh`      | Logs CPU and memory usage every 5 seconds |
+| 7  | `07_cleanup_logs.sh`        | Deletes `.log` files older than 7 days from `/var/log` |
+| 8  | `08_create_user.sh`         | Creates a new user and adds them to the `devops` group |
+| 9  | `09_extract_errors.sh`      | Extracts only lines with the word "error" from a log file |
+| 10 | `10_backup_directory.sh`    | Archives a directory and can be scheduled with a cron job |
+
+---
+
+## ✅ How to Run Scripts
+
+Make the script executable:
+
+```bash
+chmod +x script_name.sh
+>>>>>>> dac4b21 (Add README with all 10 Bash challenges)
