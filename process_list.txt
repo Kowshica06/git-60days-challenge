@@ -1,0 +1,7 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   1804  1188 ?        Sl   12:14   0:00 /init
+root         7  0.0  0.0   1812    88 ?        Ss   12:14   0:00 /init
+root         8  0.0  0.0   1812    96 ?        S    12:14   0:00 /init
+kowshica     9  0.0  0.0   6068  5312 pts/0    Ss   12:14   0:00 -bash
+kowshica    83  0.0  0.0   4748  3292 pts/0    S+   12:23   0:00 /bin/bash ./04_list_processes.sh
+kowshica    84  0.0  0.0   8276  4056 pts/0    R+   12:23   0:00 ps aux
