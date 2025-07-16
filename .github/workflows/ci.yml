@@ -23,7 +23,7 @@ jobs:
     - name: 🔹 Checkout code        # 🔹 Challenge 5
       uses: actions/checkout@v3
 
-    - name: 🔹 Print repo name      # 🔹 Challenge 5
+    - name:  Print repo name      #  Challenge 5
       run: echo "Repository: ${{ github.repository }}"
 
     - name: 🔹 Print current date   # 🔹 Challenge 1
